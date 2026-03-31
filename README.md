@@ -11,4 +11,4 @@ This is a Matlab/Simulink simulation of 10 algorithms (P&O, IncCond, SMC, RCC, F
 Simulation files are stored in results folder while the results for metrics are in the analysis_results folder.
 To delete and re-simulate specific simulations (scenario x algorithm x dataset), go to results folder and delete the simulation files you wish to re-simulate.
 
-A .zip file is in the repository which shows a version of the file with completed results. 
+A .zip file is in the repository which shows a version of the file with completed results used in the researchers' thesis. When simulating, keep existing folders intact as the code uses these folders to store simulation results.
