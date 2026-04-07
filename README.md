@@ -1,4 +1,4 @@
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9f1187a2-7715-4c40-8b93-c00085da99a2" /># 10-mppt-algorithms-tested-under-3-different-datasets
+# 10-mppt-algorithms-tested-under-3-different-datasets
 This is a Matlab/Simulink simulation of 10 algorithms (P&O, IncCond, SMC, RCC, FSB, FLC, ANN, PSO, GA, GWO) under 3 datasets: Mid-Latitude, Cloud Transient, and Tropical.
 
 # How to use it:
