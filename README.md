@@ -1,4 +1,4 @@
-# 10-mppt-algorithms-tested-under-3-different-datasets
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9f1187a2-7715-4c40-8b93-c00085da99a2" /># 10-mppt-algorithms-tested-under-3-different-datasets
 This is a Matlab/Simulink simulation of 10 algorithms (P&O, IncCond, SMC, RCC, FSB, FLC, ANN, PSO, GA, GWO) under 3 datasets: Mid-Latitude, Cloud Transient, and Tropical.
 
 # How to use it:
@@ -12,3 +12,16 @@ Simulation files are stored in results folder while the results for metrics are 
 To delete and re-simulate specific simulations (scenario x algorithm x dataset), go to results folder and delete the simulation files you wish to re-simulate.
 
 A .zip file is in the repository which shows a version of the file with completed results used in the researchers' thesis. When simulating, keep existing folders intact as the code uses these folders to store simulation results.
+
+The document for the study is also attached in this repository (WIP)
+
+# Breakdown of matlab files in the project folder
+build_scenarios.m - This creates the 4 weather scenarios used in the study (clear, ramp, step, and mixed).
+mppt_PO.m, mppt_IncCond.m, mppt_SMC.m, mppt_RCC.m, mppt_FSB.m, mppt_FLC.m, mppt_ANN.m, mppt_PSO.m, mppt_GA.m, mppt_GWO.m - The 10 MPPT algorithms codes used in the study.
+run_all.m - Executes the 120 simulations total in the study.
+analyze_all_results.m - Computes the performance metrics for all the MPPT simulation runs 
+metrics_engine.m - Compiles all the important data from simulations and create visual graphs and charts of the results.
+compute_algorithm_rank_stability.m - Computes for the entropy weight derived ranking of the algorithms (Algorithm Rank Stability) which is a unique metric introduced by the study.
+
+# Inquiries
+For further questions about the study, contact adrianatienza1211@gmail.com and we are willing to entertain any question regarding the study.
