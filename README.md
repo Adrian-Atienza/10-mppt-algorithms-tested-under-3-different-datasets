@@ -13,7 +13,7 @@ To delete and re-simulate specific simulations (scenario x algorithm x dataset),
 
 A .zip file is in the repository which shows a version of the file with completed results used in the researchers' thesis. When simulating, keep existing folders intact as the code uses these folders to store simulation results.
 
-The document for the study is also attached in this repository (WIP)
+The document for the study is also attached in this repository 
 
 **Q: Can other datasets be used instead of the one used in your study**
 
